@@ -1,6 +1,7 @@
 import devmemory from '../assets/devmemory.jpg'
 import frontweek from '../assets/frontweek.jpg'
 import pomodoroxp from '../assets/pomodoroxp.jpg'
+import cachorro from '../assets/cachorro.jpg'
 
 export const projetos = [
     {
@@ -23,5 +24,12 @@ export const projetos = [
         title: "MoveIt",
         description:'O "MoveIt" é um projeto que utiliza a técnica de pomodoro, com o objetivo de melhorar sua produtividade e foco.',
         link: "https://github.com/pdro-h0/moveit"
+    },
+    {
+        id: 4,
+        image: cachorro,
+        title: "Cachorro",
+        description:'O "Cachorro" é um site para ajudar um petshop fictício.',
+        link: "https://pdro-h0.github.io/cachorro/"
     },
 ]

@@ -12,7 +12,7 @@ export const MyProjects = () => {
           <a href={projeto.link} target="_blank" key={projeto.id}>
             <div>
               <h2>{projeto.title}</h2>
-              <C.Image className="imagem" src={projeto.image} alt="projeto.description" />
+              <C.Image className="imagem" src={projeto.image} alt="Imagem do projeto" />
               <p>{projeto.description}</p>
             </div>
           </a>
