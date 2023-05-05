@@ -2,6 +2,7 @@ import devmemory from '../assets/devmemory.jpg'
 import frontweek from '../assets/frontweek.jpg'
 import pomodoroxp from '../assets/pomodoroxp.jpg'
 import cachorro from '../assets/cachorro.jpg'
+import doctorcare from '../assets/doctorcare.jpg'
 
 export const projetos = [
     {
@@ -31,5 +32,12 @@ export const projetos = [
         title: "Cachorro",
         description:'O "Cachorro" é um site para ajudar um petshop fictício.',
         link: "https://pdro-h0.github.io/cachorro/"
+    },
+    {
+        id: 5,
+        image: doctorcare,
+        title: "DoctorCare",
+        description:'O "DoctorCare" é um site para ajudar uma clínica hospitalar  fictício.',
+        link: "https://pdro-h0.github.io/doctorcare/"
     },
 ]
