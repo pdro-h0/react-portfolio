@@ -1,66 +1,91 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: var(--gray-800);
+  background-color: var(--gray-800);
 
-    text-align: center;
+  text-align: center;
 
-    padding: 2.4rem;
+  padding: 2.4rem;
 
-    margin-top: -20rem;
+  margin-top: -20rem;
 
-    position: sticky;
-    top: 5px;
+  position: sticky;
+  top: 5px;
 
-    @media (max-width: 768px){
-        position: static;
+  @media (max-width: 768px) {
+    position: static;
+  }
+
+  border-radius: 10px;
+
+  > img {
+    max-width: 9.6rem;
+
+    border-radius: 100%;
+
+    border: 2px solid var(--tertiary-color);
+  }
+
+  > a {
+    display: inline-block;
+    padding: 0.8rem 2.4rem;
+
+    border: none;
+    border-radius: 7px;
+
+    color: white;
+    text-decoration: none;
+
+    margin: 1.2rem 0;
+
+    background-color: var(--tertiary-color);
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      opacity: 0.6;
     }
+  }
+`;
 
-    border-radius: 10px;
+export const ListSocial = styled.ul`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 
-    > img{
-        max-width: 9.6rem;
+  list-style: none;
 
-        border-radius: 100%;
-
-        border: 2px solid var(--tertiary-color);
+  > li {
+    transition: all ease 0.3s;
+    &:hover {
+      transform: translateY(-7px);
     }
+  }
+`;
 
-    >a{
-        display: inline-block;
-        padding: .8rem 2.4rem;
+export const ListTechs = styled.div`
+  list-style: none;
 
-        border: none;
-        border-radius: 7px;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 
-        color: white;
-        text-decoration: none;
+  margin-top: 1.5rem;
 
-        margin: 1.2rem 0;
+  > li {
+    background-color: #343232;
+    border-radius: 6px;
 
+    line-height: 0;
 
+    padding: .25rem;
+
+    transition: all ease .2s;
+
+    &:hover{
         background-color: var(--tertiary-color);
-
-        transition: all ease .3s;
-
-        &:hover{
-            opacity: 0.6;
-        }
     }
-`
-
-export const List = styled.ul`
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-
-    list-style: none;
-
-    >li{
-        transition: all ease .3s;
-        &:hover{
-            transform: translateY(-7px);
-        }
-    }
-`
+  }
+`;
