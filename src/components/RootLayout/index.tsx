@@ -7,7 +7,7 @@ import * as C from './styles'
 import { Outlet } from 'react-router-dom'
 
 
-function App() {
+function RootLayout() {
 
   return (
     <>
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default RootLayout
