@@ -16,7 +16,7 @@ import {
 import { SiSequelize, SiExpress } from "react-icons/si";
 
 import profilePhoto from "../../assets/38.png";
-import curriculo from "../../assets/Currículum.pdf";
+import curriculo from "../../assets/curriculo.pdf";
 
 export const Left = () => {
   return (
