@@ -1,3 +1,4 @@
+import { Footer } from '../Footer'
 import { Header } from '../Header'
 import { Left } from '../Left'
 import { Navbar } from '../Navbar'
@@ -19,6 +20,7 @@ function RootLayout() {
         <Outlet />
       </div>
       </C.Container>
+      <Footer />
     </>
   )
 }
