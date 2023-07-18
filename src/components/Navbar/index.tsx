@@ -7,6 +7,7 @@ export const Navbar = ()=>{
         <C.Container>
             <Link className='link' to="/">Sobre Mim</Link>
             <Link className='link' to="/projects">Projetos</Link>
+            <Link className='link' to="/qualification">Formação</Link>
         </C.Container>
     )
 }

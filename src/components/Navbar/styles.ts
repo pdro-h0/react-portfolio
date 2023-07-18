@@ -31,5 +31,9 @@ export const Container = styled.nav`
         &:hover::after{
             width: 100%;
         }
+
+        @media(max-width: 398px){
+            font-size: 1.4rem;
+        }
     }
 `
