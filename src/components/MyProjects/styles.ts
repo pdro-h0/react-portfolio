@@ -29,7 +29,7 @@ export const Container = styled.div`
 
       padding: 2.4rem;
 
-      height: 40rem;
+      min-height: 40rem;
 
       transition: all ease .4s;
 
