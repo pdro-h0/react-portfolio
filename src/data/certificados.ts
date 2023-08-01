@@ -9,6 +9,8 @@ import crtfObcJs1 from "../assets/certificates/tinywow_certificadoJs1_29499654_1
 
 import crtfRSConect from "../assets/certificates/tinywow_ConectarCertificateRockSeat_29501617_1.jpg";
 
+import crtfRSFunda from "../assets/certificates/tinywow_FundaCertificateRocket_30684459_1.jpg";
+
 export const certificados = [
   {
     id: 1,
@@ -41,5 +43,9 @@ export const certificados = [
   {
     id: 8,
     imgUrl: crtfRSConect,
+  },
+  {
+    id: 9,
+    imgUrl: crtfRSFunda,
   },
 ];
