@@ -12,48 +12,75 @@ export const projetos = [
         image: obfF,
         title: "OneBitFlix(Front end)",
         description:'Onebitflix é um projeto full-stack desenvolvido no curso da OneBitCode. Nele eu realizei o front-end de uma aplicação EAD de cursos inspirado no netflix.',
-        link: "https://github.com/pdro-h0/onebitflix-front-end"
+        link: {
+            gitHub: "https://github.com/pdro-h0/onebitflix-front-end",
+            site: ""
+        } 
     },
     {
         id: 2,
         image: obfB,
         title: "OneBitFlix(Back end)",
         description:'Onebitflix é um projeto full-stack desenvolvido no curso da OneBitCode. Nele eu realizei o back-end de uma aplicação EAD de cursos inspirado no netflix.',
-        link: "https://github.com/pdro-h0/onebitflix-back-end"
+        link: {
+            gitHub: "https://github.com/pdro-h0/onebitflix-back-end",
+            site: ""
+            
+        } 
     },
     {
         id: 3,
         image: devmemory,
         title: "DevMemory",
         description:'O "DevMomory" é um Jogo da Memória virtual.',
-        link: "https://github.com/pdro-h0/devmemory"
+        link: {
+            gitHub: "https://github.com/pdro-h0/devmemory",
+            site: ""
+            
+        } 
     },
     {
         id: 4,
         image: frontweek,
         title: "Pearson Hardman",
         description:'O "Pearson Hardman" é um site para ajudar um escritório de advocacia fictício.',
-        link: "https://pdro-h0.github.io/pearsonhardman-/"
+        link: {
+            gitHub: "https://github.com/pdro-h0/pearsonhardman-",
+            site: "https://pdro-h0.github.io/pearsonhardman-/"
+            
+        } 
     },
     {
         id: 5,
         image: pomodoroxp,
         title: "MoveIt",
         description:'O "MoveIt" é um projeto que utiliza a técnica de pomodoro, com o objetivo de melhorar sua produtividade e foco.',
-        link: "https://github.com/pdro-h0/moveit"
+        link: {
+            gitHub:"https://github.com/pdro-h0/moveit",
+            site: ""
+            
+        } 
     },
     {
         id: 6,
         image: cachorro,
         title: "Cachorro",
         description:'O "Cachorro" é um site para ajudar um petshop fictício.',
-        link: "https://pdro-h0.github.io/cachorro/"
+        link: {
+            gitHub: "https://github.com/pdro-h0/cachorro",
+            site: "https://pdro-h0.github.io/cachorro/"
+            
+        } 
     },
     {
         id: 7,
         image: doctorcare,
         title: "DoctorCare",
         description:'O "DoctorCare" é um site para ajudar uma clínica hospitalar  fictício.',
-        link: "https://pdro-h0.github.io/doctorcare/"
+        link: {
+            gitHub: "https://github.com/pdro-h0/doctorcare",
+            site: "https://pdro-h0.github.io/doctorcare/"
+            
+        } 
     },
 ]

@@ -16,13 +16,13 @@ export const Container = styled.div`
 
   margin-top: 3.5rem;
 
-  @media (max-width: 820px) {
+  @media (max-width: 920px) {
     grid-template-columns: 30rem;
     place-items: center;
     justify-content: center;
   }
 
-  > a {
+  > div {
     > div {
       background-color: var(--gray-800);
       border-radius: 10px;
@@ -31,11 +31,34 @@ export const Container = styled.div`
 
       min-height: 40rem;
 
-      transition: all ease .4s;
+      transition: all ease 0.4s;
+      > p {
+        margin-bottom: 1.5rem;
+      }
 
-      &:hover{
-      transform: translateY(-17px);
-    }
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1.5rem 1rem;
+
+        @media (max-width: 1100px) {
+          justify-content: center;
+        }
+
+        > a {
+          padding: 0.5rem 2.4rem;
+
+          border-radius: 7px;
+
+          transition: all ease 0.4s;
+
+          :hover {
+            transform: translateY(-6px);
+          }
+        }
+      }
     }
   }
 `;

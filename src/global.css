@@ -36,6 +36,20 @@ a{
   color: #fff;
 }
 
+.github-btn{
+  background-color: var(--primary-color);
+}
+
+.site-btn{
+  background-color: var(--tertiary-color) ;
+}
+
+.notAllowed-btn{
+  cursor: not-allowed;
+  opacity: .2;
+  pointer-events: none;
+}
+
 /* MEDIA QUERIES */
 @media(max-width: 768px){
   html{

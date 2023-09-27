@@ -11,6 +11,6 @@ export const Container = styled.div`
     gap: 3.2rem;
     align-items: flex-start;
     @media (max-width: 768px){
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
     }
 `
