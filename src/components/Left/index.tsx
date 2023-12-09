@@ -13,6 +13,8 @@ import {
   BiLogoLinkedin,
 } from "react-icons/bi";
 
+import { TbBrandNextjs } from "react-icons/tb";
+
 import { SiSequelize, SiExpress } from "react-icons/si";
 
 import profilePhoto from "../../assets/38.png";
@@ -58,6 +60,9 @@ export const Left = () => {
         <hr />
 
         <C.ListTechs>
+          <li>
+            <TbBrandNextjs  size={30} title="NextJs" />
+          </li>
           <li>
             <BiLogoReact size={30} title="ReactJs" />
           </li>
