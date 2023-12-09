@@ -7,7 +7,7 @@ export const Qualification = () => {
       <h2>Formação</h2>
 
       <p>
-        Atualmente estou no 8° período de Ciência da Computação no Centro
+        Sou graduado em Ciência da Computação pelo Centro
         Universitário Sul de Minas (UNIS) 🎓. Além disso me mantenho sempre
         atualizado com cursos online.
       </p>
