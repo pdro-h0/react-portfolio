@@ -27,6 +27,7 @@ export const MyProjects = () => {
                         ? "notAllowed-btn"
                         : "github-btn"
                     }`}
+                    target="_blank"
                   >
                     GitHub
                   </a>
@@ -35,6 +36,7 @@ export const MyProjects = () => {
                     className={`site-btn ${
                       projeto.link.site === "" ? "notAllowed-btn" : "site-btn"
                     }`}
+                    target="_blank"
                   >
                     Acessar Projeto
                   </a>
