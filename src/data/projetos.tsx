@@ -7,6 +7,7 @@ import obfF from "../assets/projects/feMain.jpg";
 import obfB from "../assets/projects/beMain.jpg";
 import carhub from "../assets/projects/carhub.jpg";
 import pdrStore from "../assets/projects/pdrStore.jpg"
+import pdrBarber from "../assets/projects/preview.png"
 
 export const projetos = [
   {
@@ -33,6 +34,17 @@ export const projetos = [
   },
   {
     id: 3,
+    image: pdrBarber,
+    title: "PDR-Barber",
+    description:
+      "O “PDR-Barber” é um sistema de reservas de barbearias, onde o usuário poderá pesquisar por barbearias e marcar e seus serviços.",
+    link: {
+      gitHub: "https://github.com/pdro-h0/pdro-barber",
+      site: "https://pdro-barber.vercel.app/",
+    },
+  },
+  {
+    id: 4,
     image: pdrStore,
     title: "PDR-Store",
     description:
@@ -43,7 +55,7 @@ export const projetos = [
     },
   },
   {
-    id: 4,
+    id: 5,
     image: carhub,
     title: "CarHub",
     description:
@@ -54,7 +66,7 @@ export const projetos = [
     },
   },
   {
-    id: 5,
+    id: 6,
     image: devmemory,
     title: "DevMemory",
     description: 'O "DevMomory" é um Jogo da Memória virtual.',
@@ -64,7 +76,7 @@ export const projetos = [
     },
   },
   {
-    id: 6,
+    id: 7,
     image: frontweek,
     title: "Pearson Hardman",
     description:
@@ -75,7 +87,7 @@ export const projetos = [
     },
   },
   {
-    id: 7,
+    id: 8,
     image: pomodoroxp,
     title: "MoveIt",
     description:
@@ -86,7 +98,7 @@ export const projetos = [
     },
   },
   {
-    id: 8,
+    id: 9,
     image: cachorro,
     title: "Cachorro",
     description: 'O "Cachorro" é um site para ajudar um petshop fictício.',
@@ -96,7 +108,7 @@ export const projetos = [
     },
   },
   {
-    id: 9,
+    id: 10,
     image: doctorcare,
     title: "DoctorCare",
     description:
