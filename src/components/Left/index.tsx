@@ -9,13 +9,14 @@ import {
   BiLogoNodejs,
   BiLogoPostgresql,
   BiLogoGithub,
+  BiLogoTailwindCss, 
   BiLogoInstagram,
   BiLogoLinkedin,
 } from "react-icons/bi";
 
 import { TbBrandNextjs } from "react-icons/tb";
 
-import { SiSequelize, SiExpress } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 import profilePhoto from "../../assets/38.png";
 import curriculo from "../../assets/curriculo.pdf";
@@ -85,7 +86,7 @@ export const Left = () => {
             <BiLogoPostgresql size={30} title="Postgresql" />
           </li>
           <li>
-            <SiSequelize size={30} title="Sequelize" />
+            <BiLogoTailwindCss size={30} title="TailwindCss" />
           </li>
           <li>
             <SiExpress size={30} title="Express" />
