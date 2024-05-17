@@ -16,7 +16,7 @@ import {
 
 import { TbBrandNextjs } from "react-icons/tb";
 
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiVitest, SiFastify,    } from "react-icons/si";
 
 import profilePhoto from "../../assets/38.png";
 import curriculo from "../../assets/curriculo.pdf";
@@ -62,7 +62,7 @@ export const Left = () => {
 
         <C.ListTechs>
           <li>
-            <TbBrandNextjs  size={30} title="NextJs" />
+            <TbBrandNextjs size={30} title="NextJs" />
           </li>
           <li>
             <BiLogoReact size={30} title="ReactJs" />
@@ -80,16 +80,22 @@ export const Left = () => {
             <BiLogoCss3 size={30} title="CSS3" />
           </li>
           <li>
+            <BiLogoTailwindCss size={30} title="TailwindCss" />
+          </li>
+          <li>
             <BiLogoNodejs size={30} title="NodeJs" />
           </li>
           <li>
             <BiLogoPostgresql size={30} title="Postgresql" />
           </li>
           <li>
-            <BiLogoTailwindCss size={30} title="TailwindCss" />
+            <SiExpress size={30} title="Express" />
           </li>
           <li>
-            <SiExpress size={30} title="Express" />
+            <SiFastify size={30} title="Fastify" />
+          </li>
+          <li>
+            <SiVitest size={30} title="Vitest" />
           </li>
         </C.ListTechs>
       </div>
