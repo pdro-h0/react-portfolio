@@ -30,6 +30,7 @@ export const Left = () => {
       <a
         href={curriculo}
         target="_blank"
+        rel="noopener noreferrer"
         download="Currículo Pedro Oliveira.pdf"
         type="application/pdf"
       >
@@ -39,12 +40,22 @@ export const Left = () => {
       <div className="links">
         <C.ListSocial>
           <li>
-            <a href="https://github.com/pdro-h0" target="_blank">
+            <a
+              href="https://github.com/pdro-h0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to my github"
+            >
               <BiLogoGithub size={30} />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/pdro_h0/" target="_blank">
+            <a
+              href="https://www.instagram.com/pdro_h0/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to my instagram"
+            >
               <BiLogoInstagram size={30} />
             </a>
           </li>
@@ -52,6 +63,8 @@ export const Left = () => {
             <a
               href="https://www.linkedin.com/in/pedro-h-b7547588/"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to my linkedin"
             >
               <BiLogoLinkedin size={30} />
             </a>

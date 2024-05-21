@@ -64,7 +64,7 @@ export const ListSocial = styled.ul`
   }
 `;
 
-export const ListTechs = styled.div`
+export const ListTechs = styled.ul`
   list-style: none;
 
   display: flex;

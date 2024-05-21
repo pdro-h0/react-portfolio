@@ -28,6 +28,7 @@ export const MyProjects = () => {
                         : "github-btn"
                     }`}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     GitHub
                   </a>
@@ -37,6 +38,7 @@ export const MyProjects = () => {
                       projeto.link.site === "" ? "notAllowed-btn" : "site-btn"
                     }`}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Acessar Projeto
                   </a>

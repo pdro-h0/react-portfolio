@@ -1,13 +1,13 @@
 import devmemory from "../assets/projects/devmemory.jpg";
-import frontweek from "../assets/projects/frontweek.jpg";
-import pomodoroxp from "../assets/projects/pomodoroxp.jpg";
+import frontweek from "../assets/projects/frontweek.webp";
+import pomodoroxp from "../assets/projects/pomodoroxp.webp";
 import cachorro from "../assets/projects/cachorro.jpg";
-import doctorcare from "../assets/projects/doctorcare.jpg";
-import obfF from "../assets/projects/feMain.jpg";
+import doctorcare from "../assets/projects/doctorcare.webp";
+import obfF from "../assets/projects/feMain.webp";
 import obfB from "../assets/projects/beMain.jpg";
 import carhub from "../assets/projects/carhub.jpg";
-import pdrStore from "../assets/projects/pdrStore.jpg"
-import pdrBarber from "../assets/projects/preview.png"
+import pdrStore from "../assets/projects/pdrStore.webp";
+import pdrBarber from "../assets/projects/preview.webp";
 
 export const projetos = [
   {
