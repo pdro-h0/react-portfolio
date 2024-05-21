@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import monaLisa from "../../assets/monalisa02-2048x1152.png";
+import monaLisa from "../../assets/monalisa02-2048x1152.webp";
 
 export const Container = styled.div`
   background: url(${monaLisa});

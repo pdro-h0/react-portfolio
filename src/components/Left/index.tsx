@@ -18,7 +18,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 import { SiExpress, SiVitest, SiFastify,    } from "react-icons/si";
 
-import profilePhoto from "../../assets/38.png";
+import profilePhoto from "../../assets/38.webp";
 import curriculo from "../../assets/curriculo.pdf";
 
 export const Left = () => {
